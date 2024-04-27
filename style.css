@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.nav {
+    background-color: #402709;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 40px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-links li a:hover{
+  color: #3d2407;
+  background-color: white;
+  border-radius: 10px 10px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 700ms;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+
+.division{
+    width:100%;
+    height: 692px;
+    position: relative;
+}
+.subdiv{
+    position: absolute;
+
+}
+.subdiv img{
+    width: 100%;
+    height: 100%;
+}
+.subdiv h1{
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+    font-size: 50px; 
+    margin-top: 250px;
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  
+    
+  }
+.division2{
+    width: 100%;
+    height: 850px;
+  }
+ .division2>h1{
+    text-align: center;
+    padding: 80px 0 80px 0;
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+ .division2 p{
+    padding: 0px 80px 80px 80px;
+   line-height: 1.5;
+   font-size: 1.7rem;
+   font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn2{
+    padding: 20px;
+    background: transparent;
+    border: 2px solid #4f3508;
+    margin: 0px 30% 0px 40% ;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #4f3508;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: #402709;
+    color: white;
+}
+.division3{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+  }
+  .division3 h1{
+    text-align: center;
+    padding: 80px 0 80px 0;
+    font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+ .division3 p{
+    padding: 0px 80px 80px 80px;
+   line-height: 1.5;
+   font-size: 1.7rem;
+   font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  .sub3{
+    height: 630px;
+    flex: 1 1 50%;
+
+  }
+  #sub3{
+    height: 720px;
+  }
+.sub3 img{
+    width: 100%;
+    height: 100%;
+}
+.btn3{
+    padding: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin: 0px 30% 0px 30%;
+}
+.btn3:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #402709;
+}
+.division4{
+    width: 100%;
+    height: 400px;
+    background-color: #402709;
+    margin-top: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub4{
+    margin-left: 40px;
+    margin-top: -200px;
+ width: 29%;
+ height: 500px;
+}
+.sub4 img{
+    width: 100%;
+    height: 70%;
+}
+.sub4img img{
+    width: 100%;
+    height: 100%;
+}
+/* .head{
+    text-align: center;
+    margin: 60px 30% 0px 30%;
+} */
+.division5{
+    width: 100%;
+    height: 600px;
+    margin: 300px 0 0 0;
+    background-color: #726350;
+    display: flex;
+   flex-wrap: wrap;
+}
+.division5 h1{
+    text-align: center;
+    padding: 80px 0 80px 0;
+    font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sub5{
+    margin-left: 35px;
+    margin-top: -200px;
+ width: 45%;
+ height: 700px;
+ background-color: #402709;
+}
+.sub5 img{
+    width: 100%;
+    height: 60%;
+    padding: 30px;
+}
+
+.sub5 p{
+    padding: 40px;
+    font-family: "Satisfy", cursive;
+    color: white;
+    line-height: 30px;
+}
+.btn5{
+    width: 100px;
+    height:50px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin: 0 30% 0 30%;
+}
+.btn5:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #402709;
+}
+.division6{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Styling links */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+    display: flex;
+}
+
+footer{
+    background-color: #3d2407;
+    color: white;
+    padding: 40px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col{
+    flex :1;
+    padding: 0 20px;
+}
+.col h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.col p{
+    margin-bottom: 10px;
+}
+.col ul{
+    list-style: none;
+}
+.col ul li{
+    margin-bottom: 5px;
+
+}
+.col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.col ul li a:hover{ 
+  width: 150px;
+  background-color: white;
+  color: #3d2407;
+  border-radius: 10px 10px 10px;
+  transition: all 500ms;
+}
+.container a{
+  padding: 5px;
+}
+.bx:hover{
+  color: black;
+}
+  @media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+    .nav{
+        height: 100px;
+    }
+
+    .nav-links {
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-right: 40px;
+    }
+    
+    .subdiv h1{
+        margin-top:80px ;
+    }
+    .division2{
+        padding: 0px;
+        margin-top: -400px;
+    }
+    .division2 h1{
+        margin:0px
+    }
+   .division3{
+    margin-top: 950px;
+   }
+   .division4{
+    margin-top: 800px;
+   }
+  .sub4{
+    flex:100%;
+    margin: 0px;
+  }
+  .sub4 img{
+    width: 100%;
+    height: 80%;
+}
+
+  .division5{
+    margin:999px 0 0 0;
+    width: 100%;
+  }
+  .btn5{
+    margin-left: 180px;
+  }
+  .sub5{
+    width: 100%;
+    margin: 0 0 50px 0;
+  }
+  
+  .row{
+    flex-direction: column;
+    margin-top: 890px;
+  }
+  .col{
+    padding: 10px 0;
+    text-align: center;
+  }
+  .copyright p{
+    margin-left: 100px;
+  }
+}
